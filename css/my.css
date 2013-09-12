@@ -1,0 +1,77 @@
+body {
+	background-image: url('../img/background.png');
+	background-repeat: repeat;
+}
+
+.navbar-brand {
+	color: #000;
+	font-weight: bold;
+}
+
+.jumbotron {
+	background-image: url('../img/macbook-keyboard.jpg');
+	background-color: #ccc;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: scroll;
+	background-position: center;
+	color: #fff;
+	text-shadow: .25em .25em 1em #006699;
+}
+
+.btn {
+	background-color: #ccc;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	webkit-transition: 1s;
+	transition: 1s;
+}
+
+.btn:hover {
+	background-color: #006699;
+	color: #fff;
+}
+
+.col-md-8 {
+	padding-top: 30px;
+
+}
+
+.col-md-4 {
+	padding-top: 30px;
+}
+
+.col-md-8 p {
+	font-size: 1.5em;
+
+}
+
+.col-md-8 h1 {
+	border-bottom: 2px solid #ccc;
+}
+
+.col-md-8 a {
+	color: #0099cc;
+}
+
+.col-md-8 a:hover {
+	background-color: #006699;
+	color: #fff;
+	border-radius: 5px;
+	padding: 2px;
+}
+
+.col-md-4 img {
+	width: 100%;
+	border: 3px solid black;
+
+}
+
+.footer {
+	padding-top: 20px;
+	padding-right: 20px;
+	margin-top:	15px; 
+	background-color: #006699;
+	color: lightgray;
+}
