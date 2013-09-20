@@ -8,15 +8,21 @@ body {
 	font-weight: bold;
 }
 
+.nav-tabs {
+	border-bottom: none;
+}
+
 .jumbotron {
-	background-image: url('../img/macbook-keyboard.jpg');
+	height: 100%;
+	background-image: url('../img/keyboard.jpg');
 	background-color: #ccc;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	background-position: center;
+	background-size: cover;
 	color: #fff;
-	text-shadow: .25em .25em 1em #006699;
+	font-weight: bold;
+	text-shadow: 0em 0em .75em #000;
 }
 
 .btn {
@@ -71,7 +77,7 @@ body {
 .footer {
 	padding-top: 20px;
 	padding-right: 20px;
-	margin-top:	15px; 
+	margin-top:	15px;
 	background-color: #006699;
 	color: lightgray;
 }
